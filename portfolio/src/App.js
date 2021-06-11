@@ -41,9 +41,7 @@ function App() {
             </ul>
           </div>
         </nav>
-        <div className="name">
-          <h1> Ashwag <br /> Zabani </h1>
-        </div>
+        
         <div className="row">
           <div className="col-md-5 left-side">
             <img src={cover} alt="cover" className="cover-img" />
@@ -53,10 +51,6 @@ function App() {
             <Route path="/About-me" component={About_me} />
             <Route path='/What-I-do' component={What_i_do} />
             <Route path='/Projects' component={Projects} />
-            <h5>Software Engineer</h5>
-            <br />
-            <p>Hi, I ‘m a Software Engineer from Saudi Arabia, Jeddah. I have rich trainee experiences in Web Development based on-hands projects, also, I’m good at Javascript, Html, Css and React. I love to talk with you about our unique.
-            </p>
           </div>
         </div>
       </Router>
