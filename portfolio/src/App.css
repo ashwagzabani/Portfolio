@@ -10,33 +10,10 @@
 }
 
 .right-side{
-  padding-top: 381px;
-  padding-bottom: 100px;
   background-color: #0D0D0D;
-  color: white;
-  height: 100%;
 }
 
-.right-side h5,p{
-  padding-left: 50px;
-  padding-right: 30px;
-}
 .cover-img{
   margin-top: 100px;
 }
 
-.name{
-  background-color: #0D0D0D;
-  color: white;
-  position: absolute;
-  padding: 65px 40px;
-  border-radius: 9.5em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  top: 150px;
-  left: 450px;
-  text-align: left;
-  font-family: 'Hammersmith One', sans-serif;
-}

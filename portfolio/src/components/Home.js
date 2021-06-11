@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-
+import '../style/Home.css'
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className="home">
                 <div className="name">
                     <h1> Ashwag <br /> Zabani </h1>
                 </div>
