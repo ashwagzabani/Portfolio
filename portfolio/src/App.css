@@ -1,7 +1,7 @@
 .navbar{
   position: absolute !important;
   top: 40px;
-  width: 80%;
+  width: 85%;
   margin: 0 9%;
   color: white !important;
   background-color: #404040;
@@ -9,11 +9,38 @@
   padding: 20px;
 }
 
-.right-side{
+.center-side{
   background-color: #0D0D0D;
+  border-right: 1px solid gray;
 }
 
 .cover-img{
   margin-top: 100px;
 }
 
+.right-side{
+  background-color: #0D0D0D;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.right-side .linkedin,.right-side .github , .right-side .email {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0D0D0D;
+  border: 1px solid #404040;
+  margin-bottom: 15px;
+  font-size: 14pt;
+  color: #ffffff;
+}
+
+.linkedin:hover ,.github:hover ,.email:hover{
+  background-color: #404040;
+  cursor: pointer;
+}

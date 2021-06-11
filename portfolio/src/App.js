@@ -1,6 +1,7 @@
 import cover from './cover.jpg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import Home from './components/Home';
 import About_me from './components/About_me';
 import What_i_do from './components/What_i_do';
@@ -41,16 +42,27 @@ function App() {
             </ul>
           </div>
         </nav>
-        
+
         <div className="row">
           <div className="col-md-5 left-side">
             <img src={cover} alt="cover" className="cover-img" />
           </div>
-          <div className="col-md-7 right-side">
+          <div className="col-md-6 center-side">
             <Route exact path="/" component={Home} />
             <Route path="/About-me" component={About_me} />
             <Route path='/What-I-do' component={What_i_do} />
             <Route path='/Projects' component={Projects} />
+          </div>
+          <div className="col-md-1 right-side">
+            <div className="linkedin">
+              <i className="fa fa-linkedin"></i>
+            </div>
+            <div className="github">
+              <i className="fa fa-github"></i>
+            </div>
+            <div className="email">
+              <i className="fa fa-envelope"></i>
+            </div>
           </div>
         </div>
       </Router>

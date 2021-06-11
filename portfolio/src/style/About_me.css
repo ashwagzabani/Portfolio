@@ -1,0 +1,19 @@
+.about_me {
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 48px;
+}
+
+.about_me h6{
+    color: blue;
+}
+
+.about_me h6.mystory{
+    margin-bottom: 50px;
+}
+
+.about_me span{
+    color: white;
+}
+
+

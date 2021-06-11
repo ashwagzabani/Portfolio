@@ -6,7 +6,7 @@
     height: 100%;
 }
 
-.home h5,p{
+.home h5,.home p{
     padding-left: 50px;
     padding-right: 30px;
 }
