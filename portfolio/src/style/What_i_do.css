@@ -1,0 +1,31 @@
+.what-i-do{
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 13px;
+}
+
+.card{
+    background-color: transparent;
+    border: 1px solid #404040;
+}
+
+.fa-code{
+    font-size: 20pt;
+    color: blue;
+}
+
+.progress {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+}
+  
+.mybar {
+    width: 1%;
+    height: 5px;
+    background-color: blue;
+}
+
+.skill{
+    margin-top: 5px;
+}
