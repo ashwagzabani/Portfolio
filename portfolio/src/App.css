@@ -1,3 +1,7 @@
+.navbar-brand{
+  padding-right: 250px;
+}
+
 .navbar{
   position: absolute !important;
   top: 40px;

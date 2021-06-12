@@ -1,4 +1,5 @@
 import cover from './cover.jpg';
+import logo from './logo.png';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
@@ -20,7 +21,7 @@ function App() {
     <div className="container-fluid">
       <Router >
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><img src={logo} alt="logo" width="44px" height="44px" /></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
