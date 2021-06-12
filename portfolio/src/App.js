@@ -35,7 +35,7 @@ function App() {
                 <Link to="/About-me" class="nav-link">About Me</Link>
               </li>
               <li class="nav-item">
-                <Link to="/What-i-do" class="nav-link">What I do</Link>
+                <Link to="/What-i-do" class="nav-link">What Can I do</Link>
               </li>
               <li class="nav-item">
                 <Link to="/Projects" class="nav-link">Projects</Link>
