@@ -1,7 +1,7 @@
 .what-i-do{
     color: white;
     padding-top: 150px;
-    padding-bottom: 13px;
+    padding-bottom: 37px;
 }
 
 .card{
@@ -17,7 +17,7 @@
 .progress {
     width: 100%;
     height: auto;
-    background-color: #ddd;
+    background-color: #404040;
 }
   
 .mybar {
@@ -28,4 +28,29 @@
 
 .skill{
     margin-top: 5px;
+}
+
+#html-skill .mybar{
+    width: 95%;
+}
+#react-skill .mybar{
+    width: 80%;
+}
+#js-skill .mybar{
+    width: 85%;
+}
+#mongodb-skill .mybar{
+    width: 80%;
+}
+#python-skill .mybar{
+    width: 80%;
+}
+#django-skill .mybar{
+    width: 80%;
+}
+#express-skill .mybar{
+    width: 85%;
+}
+#postgres-skill .mybar{
+    width: 80%;
 }
