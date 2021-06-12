@@ -54,15 +54,15 @@ function App() {
             <Route path='/Projects' component={Projects} />
           </div>
           <div className="col-md-1 right-side">
-            <div className="linkedin">
-              <i className="fa fa-linkedin"></i>
-            </div>
-            <div className="github">
+            <a className="linkedin" href="https://www.linkedin.com/in/ashwagzabani/" target="_blanck">
+              <i className="fa fa-linkedin" ></i>
+            </a>
+            <a className="github" href="https://github.com/ashwagzabani/" target="_blanck">
               <i className="fa fa-github"></i>
-            </div>
-            <div className="email">
+            </a>
+            <a className="email" href="mailto:ashwag.amz@gmail.com">
               <i className="fa fa-envelope"></i>
-            </div>
+            </a>
           </div>
         </div>
       </Router>
