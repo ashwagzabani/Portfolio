@@ -1,7 +1,8 @@
 import cover from './cover.jpg';
 import logo from './logo.png';
-import './App.css';
+import './style/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/js/src/collapse.js";
 import 'font-awesome/css/font-awesome.min.css';
 import Home from './components/Home';
 import About_me from './components/About_me';
@@ -20,25 +21,25 @@ function App() {
 
     <div className="container-fluid">
       <Router >
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#"><img src={logo} alt="logo" width="44px" height="44px" /></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg navbar-light">
+          <a className="navbar-brand" href="#"><img src={logo} alt="logo" width="44px" height="44px" /></a>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <Link to="/" class="nav-link">Home</Link>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav mr-auto">
+              <li className="nav-item current">
+                <Link to="/" className="nav-link">Home</Link>
               </li>
-              <li class="nav-item">
-                <Link to="/About-me" class="nav-link">About Me</Link>
+              <li className="nav-item">
+                <Link to="/About-me" className="nav-link">About Me</Link>
               </li>
-              <li class="nav-item">
-                <Link to="/What-i-do" class="nav-link">What Can I do</Link>
+              <li className="nav-item">
+                <Link to="/What-i-do" className="nav-link">What Can I do</Link>
               </li>
-              <li class="nav-item">
-                <Link to="/Projects" class="nav-link">Projects</Link>
+              <li className="nav-item">
+                <Link to="/Projects" className="nav-link">Projects</Link>
               </li>
             </ul>
             <a className="resume-btn" href="/Ashwag Ahmad Zabani - Software Engineer.pdf" download>Download Resume</a>
