@@ -14,7 +14,7 @@ class About_me extends Component {
                 <div className="row">
                     <div className="col-md-6">
                         <h6>Age: <span>26</span></h6>
-                        <h6>Start work: <span>immediatly</span></h6>
+                        <h6>Start work: <span>immediately</span></h6>
                     </div>
                     <div className="col-md-6">
                         <h6>Location: <span>Jeddah</span></h6>

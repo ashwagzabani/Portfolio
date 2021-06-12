@@ -40,3 +40,16 @@ a{
 .project-details a:hover{
     color: blue;
 }
+
+@media screen and (max-width: 768px) {
+    .overflow-auto{
+        overflow: hidden !important;
+
+    }
+    .projects{
+        height: auto;
+    }
+    .card{
+        padding: 20px;
+    }
+  }
