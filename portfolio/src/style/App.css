@@ -68,6 +68,12 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1024px){
+  .resume-btn{
+    margin: 0;
+   display: block;
+ }
+}
 
 @media screen and (max-width: 768px) {
   .left-side{
@@ -78,7 +84,7 @@
     justify-content: space-evenly;
   }
   .resume-btn{
-  margin: 0;
-  display: block;
+     margin: 0;
+    display: block;
   }
 }
