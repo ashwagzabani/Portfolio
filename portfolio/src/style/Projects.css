@@ -2,4 +2,41 @@
     color: white;
     padding-top: 150px;
     padding-bottom: 48px;
+    overflow: scroll;
+    height: 625px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.details{
+    padding: 5px 15px;
+}
+
+.project-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10xp;
+}
+
+a{
+    text-decoration: none;
+}
+
+.project-details a{
+    font-size: 16pt;
+    color: #ffffff;
+}
+
+.project-details a:hover{
+    color: blue;
 }

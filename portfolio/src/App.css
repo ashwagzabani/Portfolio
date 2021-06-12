@@ -32,6 +32,9 @@
 }
 
 .right-side{
+  /* position: fixed;
+  right: 0;
+  bottom: 0; */
   background-color: #0D0D0D;
   display: flex;
   flex-direction: column;
