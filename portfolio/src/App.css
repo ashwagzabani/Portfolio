@@ -12,6 +12,16 @@
   padding: 20px;
 }
 
+.resume-btn{
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #404040;
+  border-radius: 2.5em;
+  padding: 15px;
+  font-size: 11pt;
+  margin-left: 300px;
+}
+
 .center-side{
   background-color: #0D0D0D;
   border-right: 1px solid gray;

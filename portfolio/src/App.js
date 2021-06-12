@@ -41,6 +41,7 @@ function App() {
                 <Link to="/Projects" class="nav-link">Projects</Link>
               </li>
             </ul>
+            <a className="resume-btn" href="/Ashwag Ahmad Zabani - Software Engineer.pdf" download>Download Resume</a>
           </div>
         </nav>
 
